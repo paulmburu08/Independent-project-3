@@ -5,14 +5,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Delani studio</title>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div class="jumbotron">
-			<h1><b>WELCOME</b></h1><br>
-			<h1><b>TO DELANI STUDIO</b></h1><br>
-			<p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-		</div>
-		<div>
+			<div class="top">
+				<img src="images/logo/logo.png" alt="logo"><br><br>
+				<h1><b>WELCOME</b></h1><br>
+				<h1><b>TO DELANI STUDIO</b></h1>
+				<p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+			</div>
+			<img class="mouseClick" src="images/mouse_click.png" alt="mouse click">
+		</div><br>
+
+		<div class="about">
 			<h2><b>ABOUT US</b></h2>
 			<p>When you work with us, you are part of a team of committed collaborators. All
 				aspects of our software development process are intergrated, interactive and
@@ -22,62 +28,116 @@
 			<p>We start each product by understanding your business goals, the users needs and
 				the product requirements.</p><br>
 			<p>Then we help translate them into effective and elegant solutions.</p>
-		</div>
-		<div>
+		</div><br><br>
+
+		<div class="card">
 			<h2><b>SERVICES</b></h2>
-			<p>Before we sign a contract or a line of code our team will spend the necessary time
+			<b><p>Before we sign a contract or a line of code our team will spend the necessary time
 				needed to understand your product vision.</p><br>
 			<p>The outcome of this scoping session is proposal or high-level statement of work.</p><br>
-			<p>Based on your requirements, we can provide a complete offering or just the pieces you need</p>
-		</div>
-		<div>
-			<h2><b>WHAT WE DO</b></h2>
-			<h3>DESIGN</h3>
-			<h3>DEVELOPMENT</h3>
-			<h3>PRODUCT MANAGEMENT</h3>
-		</div>
-		<div>
-			<h2>PORTFOLIO</h2>
-		</div>
-		<div>
-			<form>
-				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-				<style type="text/css">
-					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-					/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-						We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-				</style>
-				<div id="mc_embed_signup">
-				<form action="https://gmail.us19.list-manage.com/subscribe/post?u=bdf9510c8a47ab22a0dc621f2&amp;id=10b1aa5600" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div id="mc_embed_signup_scroll">
-					<h2>Subscribe</h2>
-				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-				<div class="mc-field-group">
-					<label for="mce-EMAIL">Email...  <span class="asterisk">*</span>
-				</label>
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-				</div>
-				<div class="mc-field-group">
-					<label for="mce-FNAME">Name... </label>
-					<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-				</div>
-				<div class="mc-field-group">
-					<label for="mce-LNAME">Your message here... </label>
-					<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-				</div>
-					<div id="mce-responses" class="clear">
-						<div class="response" id="mce-error-response" style="display:none"></div>
-						<div class="response" id="mce-success-response" style="display:none"></div>
-					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bdf9510c8a47ab22a0dc621f2_10b1aa5600" tabindex="-1" value=""></div>
-						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-						</div>
-				</form>
-				</div>
-				<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+			<p>Based on your requirements, we can provide a complete offering or just the pieces you need.</p></b>
+		</div><br>
 
-			</form>
+		<span class="title1"><h2><b>WHAT WE DO</b></h2></span><br>
+		<div class="row" id="row1">
+			<figure class="col-md-4">
+				<div id="design">
+					<p><b>DESIGN</b></p>
+					<p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+					<p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make 
+						sure what gets built is what is needed.</p>
+				</div>
+				<div id="design1">
+					<img src="images/services_icons/design_icon.png" alt="Design">
+					<figcaption>DESIGN</figcaption>
+				</div>
+			</figure>
+			<figure class="col-md-4">
+				<div id="development">
+					<p><b>DEVELOPMENT</b></p>
+					<P>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+					<p>They collaborate with your team to write, and improve code on a daily basis, using proven 
+						practices such as test-driven development and pair programming.</P>
+				</div>
+				<div id="development1">
+					<img src="images/services_icons/dev_icon.png" alt="development">
+					<figcaption>DEVELOPMENT</figcaption>
+				</div>
+			</figure>
+			<figure class="col-md-4">
+				<div id="prod">
+					<p><b>PRODUCT MANAGEMENT</b></p>
+					<p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p> 
+					<p>This iterative process allows for changes as business requirements evolve.</p>
+				</div>
+				<div id="prod1">
+					<img src="images/services_icons/product_icon.png" alt="Design">
+					<figcaption>PRODUCT MANAGEMENT</figcaption>
+				</div>
+			</figure>
 		</div>
-			
+
+		<div class="portfolio">
+			<span class="title2"><h2><b>PORTFOLIO</b></h2></span><br>
+			<div class="row">
+				<img id="pot1" class="col-md-3" src="images/portfolio/work4.jpg" alt="Portfolio 1">
+				<img class="col-md-3" src="images/portfolio/work3.jpg" alt="Portfolio 2">
+				<img class="col-md-3" src="images/portfolio/work2.jpg" alt="Portfolio 3">
+				<img class="col-md-3" src="images/portfolio/work1.jpg" alt="Portfolio 4">
+			</div><br><br>
+			<div class="row">
+				<img class="col-md-3" src="images/portfolio/work5.jpg" alt="Portfolio 5">
+				<img class="col-md-3" src="images/portfolio/work6.jpg" alt="Portfolio 6">
+				<img class="col-md-3" src="images/portfolio/work7.jpg" alt="Portfolio 7">
+				<img class="col-md-3" src="images/portfolio/work8.jpg" alt="Portfolio 8">
+			</div>
+		</div>
+
+		<div class="form">
+			<div id="mc_embed_signup">
+				<form action="https://gmail.us19.list-manage.com/subscribe/post?u=bdf9510c8a47ab22a0dc621f2&amp;id=10b1aa5600" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+						<span class="title3"><h2><b>CONTACT US</b></h2></span><br>
+						<div class="input">
+							<span class="mc-field-group">
+								<input size="42" type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="Name...">
+							</span>
+							<span class="mc-field-group">
+								<input size="42" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email...">
+							</span>
+						</div><br>
+						<div class="mc-field-group">
+							<textarea value="" name="LNAME" class="" id="mce-LNAME" placeholder=" Your message here..."></textarea></textarea>
+						</div><br>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bdf9510c8a47ab22a0dc621f2_10b1aa5600" tabindex="-1" value=""></div>
+							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					</div>
+				</form>
+			</div>
+			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+		</div><br><br>
+
+		<div class="socials">
+			<img src="images/social_icons/twitter.png" alt="twitter">
+			<img src="images/social_icons/dribble.png" alt="twitter">
+			<img src="images/social_icons/facebook.png" alt="twitter">
+			<img src="images/social_icons/g_plus.png" alt="twitter">
+			<img src="images/social_icons/skype.png" alt="twitter">
+			<img src="images/social_icons/stumble_upon.png" alt="twitter">
+			<img src="images/social_icons/behance.png" alt="twitter">
+			<img src="images/social_icons/pinterest.png" alt="twitter">
+			<img src="images/social_icons/flickr.png" alt="twitter">
+		</div><br><br>
+
+		<div class="end">
+			<p>DELANI STUDIO</p><br>
+			<p>2019</p>
+		</div><br>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/scripts.js" type="text/javascript"></script>
 	</body>
 </html>

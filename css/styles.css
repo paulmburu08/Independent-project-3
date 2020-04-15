@@ -1,0 +1,97 @@
+.jumbotron{
+    text-align: center;
+    background-image: url(../images/backgrounds/h_img.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 700px;
+}
+
+.top{
+    position: relative;top: 120px;
+}
+
+.mouseClick{
+    position: relative;top: 280px;
+}
+
+.about{
+    text-align: center;
+}
+
+.card{
+    background-image: url(../images/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    text-align: center;
+    padding: 90px;
+}
+
+.title1{
+    text-align: center;
+    position: relative;top: 40px;
+}
+
+.title2{
+    text-align: center;
+}
+
+.title3{
+    text-align: center;
+}
+
+.portfolio{
+    padding: 140px;
+}
+
+#row1{
+    text-align: center;   
+    position: relative;top: 40px;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+#mce-FNAME{
+    position: relative;right: 20px;
+    border-color: white;
+    background-color: transparent;
+}
+
+#mce-EMAIL{
+    position: relative;left: 10px;
+    border-color: white;
+    background-color: transparent;
+}
+
+#mce-LNAME{
+    width: 830px;
+    height: 200px;
+    border-color: white;
+    background-color: transparent;
+}
+
+.form{
+    background-image: url(../images/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+.end{
+    text-align: center;
+    line-height: 0.3;
+}
+
