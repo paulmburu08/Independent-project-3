@@ -36,5 +36,8 @@ $(".port1").hover(function(){
 
 });
 
+$("#mc-embedded-subscribe").click(function(){
+    alert("Thank for Subscribing to our email list. Your message has been received")
+});
 
 });

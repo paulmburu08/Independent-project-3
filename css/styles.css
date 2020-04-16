@@ -19,10 +19,6 @@
     text-align: center;
 }
 
-.p{
-    line-height: 0.5;
-}
-
 .card{
     background-image: url(../images/backgrounds/s_image.jpg);
     background-size: cover;
