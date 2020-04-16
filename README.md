@@ -1,5 +1,5 @@
 # {DELANI STUDIO}
-#### {This is Delani studio.It is a recreated website of a fictional studio}, {03/4/2020}
+#### {This is Delani studio.It is a recreated website of a fictional studio}, {16/4/2020}
 #### By **{Paul Mburu Njuguna}**
 ## Description
 {This is a fictional studio recreated as a project and to practice everything learnt.It is made with HTML,CSS,Javascript and Jquery}
