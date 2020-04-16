@@ -19,6 +19,10 @@
     text-align: center;
 }
 
+.p{
+    line-height: 0.5;
+}
+
 .card{
     background-image: url(../images/backgrounds/s_image.jpg);
     background-size: cover;
@@ -26,7 +30,7 @@
     color: white;
     height: 400px;
     text-align: center;
-    padding: 90px;
+    padding-top: 110px;
 }
 
 .title1{
@@ -40,6 +44,18 @@
 
 .title3{
     text-align: center;
+}
+
+#design{
+    display: none;
+}
+
+#development{
+    display: none;
+}
+
+#prod{
+    display: none;
 }
 
 .portfolio{
@@ -86,8 +102,8 @@
 }
 
 .socials{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    position: relative;left: 400px;
 }
 
 .end{
