@@ -62,6 +62,10 @@
     padding: 140px;
 }
 
+#port1A{
+    display: none;
+}
+
 #row1{
     text-align: center;   
     position: relative;top: 40px;
