@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    width: 100%;
+}
+
 .jumbotron{
     text-align: center;
     background-image: url(../images/backgrounds/h_img.jpg);
@@ -60,6 +65,10 @@
 
 #port1A{
     display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #row1{
