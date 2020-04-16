@@ -9,7 +9,11 @@
 ## Known Bugs
 {None}
 ## Technologies Used
-{HTML,CSS,Javascript and Jquery.}
+{HTML
+CSS
+Javascript
+Jquery
+Mailchimp API}
 ## Support and contact details
 {If you run into any issues contact me at paulmburu08@gmail.com and feel free to contribute to the file.}
 ### License

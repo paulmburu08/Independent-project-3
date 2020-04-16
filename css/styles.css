@@ -91,6 +91,12 @@
     background-color: transparent;
 }
 
+#mc-embedded-subscribe{
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
 .form{
     background-image: url(../images/backgrounds/c_image.jpg);
     background-size: cover;
