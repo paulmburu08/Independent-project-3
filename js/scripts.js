@@ -31,9 +31,7 @@ $("#prod").click(function(){
 });
 
 $(".port1").hover(function(){
-    $(this).children("#port1A").fadeToggle(1500, 'linear');
-    $(this).children("#pot1").fadeToggle(1500, 'linear');
-
+    $(this).children("#port1A").fadeToggle(1000, 'linear');
 });
 
 $("#mc-embedded-subscribe").click(function(){
